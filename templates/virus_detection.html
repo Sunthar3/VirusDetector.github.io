@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Virus Detection</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='style.css')}}">
+        
+    </head>
+
+    <body>
+
+        <center>
+            <div class="main">
+                <h1>
+                    File Virus Detction
+                </h1>
+                <form action = "/res_pred" method = "post" enctype="multipart/form-data">  
+                    <input type="file" name="file" id="file">  
+                    <input type = "submit" value="Upload">  
+                    
+                </form>  
+ 
+            </div>
+        </center>
+     
+    </body>
+</html>

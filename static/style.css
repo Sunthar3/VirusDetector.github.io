@@ -1,0 +1,41 @@
+body{
+    background-image: url(bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: rgb(169, 169, 169);
+    text-decoration-color: aliceblue;
+    
+
+}
+
+.main{
+    position:  absolute;
+    top: 10%;
+    left: 30%;
+    width: 460px;
+    border: 2px solid #666464;
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(85, 82, 82, 0.3);
+    color:  #fff;
+    border-radius: 12px;
+    padding-top: 80px;
+}
+
+#file::-webkit-file-upload-button{
+      visibility:  hidden;
+    }
+#file,input[type = button], #color{
+    width: 90%;
+    height: 70px;
+    margin-bottom: 20px;
+    font-size:  17px;
+    text-align: center;
+    text-decoration-color: aliceblue;
+    border: 1px solid #615e5e;
+    letter-spacing:  2px;
+    border-radius: 5px;
+    background-color: rgba(133, 127, 127, 0.2);
+    color: #fff;
+    transition: .5s all;
+}
