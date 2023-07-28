@@ -16,8 +16,8 @@ The Antivirus Project aims to enhance cybersecurity awareness by providing users
 
 
 ## Technologies Used
-- Front-end: HTML, CSS, JavaScript, React.js
-- Back-end: Node.js, Express.js
+- Front-end: HTML, CSS, JavaScript
+- Back-end: Flask
 - External API: VirusTotal API
 
 ## API Key
